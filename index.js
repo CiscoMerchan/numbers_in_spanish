@@ -1,16 +1,17 @@
 $(document).ready(function(){
     $('button').click(function(){
-        console.log(this)
-       this.addClass('animate_btn');
-       setTimeout(this.removeClass('animate_btn'), 2000)
+        // console.log(this)
+    //    this.addClass('animate_btn');
+    //    setTimeout(this.removeClass('animate_btn'), 1000)
         
       });
 })
 
 
 
-
-function press(){ $(document).keydown(function(event){
+// add event listeners keydown
+function press(){ 
+    $(document).keydown(function(event){
      var num = event.key;
   
 switch(num){
@@ -59,5 +60,45 @@ default:
     alert('Click solo en numeros');
 
 }
-});}
+});
+}
+function playSound(soundUrl) {
+    var sound = new Audio(soundUrl);
+    sound.play();
+    console.log(sound);
+
+}
 press();
+
+// add event listeners to buttons
+$('.b1').click(function() {
+    playSound('assets/sounds/1.mp3');
+  });
+  $('.b2').click(function() {
+    playSound('assets/sounds/2.mp3');
+  });
+  $('.b3').click(function() {
+    playSound('assets/sounds/3.mp3');
+  });
+  $('.b4').click(function() {
+    playSound('assets/sounds/4.mp3');
+  });
+  $('.b5').click(function() {
+    playSound('assets/sounds/5.mp3');
+  });
+  $('.b6').click(function() {
+    playSound('assets/sounds/6.mp3');
+  });
+  $('.b7').click(function() {
+    playSound('assets/sounds/7.mp3');
+  });
+  $('.b8').click(function() {
+    playSound('assets/sounds/8.mp3');
+  });
+  $('.b9').click(function() {
+    playSound('assets/sounds/9.mp3');
+  });
+  $('.b10').click(function() {
+    playSound('assets/sounds/10.mp3');
+  });
+
