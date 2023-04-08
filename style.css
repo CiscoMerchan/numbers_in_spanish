@@ -21,6 +21,7 @@ h1{
   
     font-family: 'Futura PT', sans-serif;
     font-weight: 800;
+    font-size: 3.5rem;
                                                 
 }
 /* All the buttons */
@@ -33,5 +34,10 @@ h1{
     width: 500px;
     height: 500px;
 }
-
+.animate_btn{
+    
+    opacity: 0.5;
+    height: 150px;
+    width: 150px;
+}
 

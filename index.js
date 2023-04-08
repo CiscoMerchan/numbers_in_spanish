@@ -1,10 +1,12 @@
-// var inn =$('img').click();
-// console.log(inn);
-    // function(){
-    
-    // console.log(this));
-    // });
- 
+$(document).ready(function(){
+    $('button').click(function(){
+        console.log(this)
+       this.addClass('animate_btn');
+       setTimeout(this.removeClass('animate_btn'), 2000)
+        
+      });
+})
+
 
 
 
@@ -59,4 +61,3 @@ default:
 }
 });}
 press();
-console.log(press());
