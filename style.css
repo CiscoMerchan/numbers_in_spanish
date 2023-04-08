@@ -9,7 +9,14 @@ button{
     width: 120px;
     height: 120px;
     border: 3px black solid;
-}
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .animate_btn{
+    opacity: 0.5;
+    height: 150px;
+    width: 150px;
+  }
 img{
     width: 100px;
     height: 100px;
@@ -34,10 +41,3 @@ h1{
     width: 500px;
     height: 500px;
 }
-.animate_btn{
-    
-    opacity: 0.5;
-    height: 150px;
-    width: 150px;
-}
-
