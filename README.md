@@ -1,8 +1,13 @@
 # Learn Spanish Numbers Web Application
 
-    <em>I made this webapp for my daughter to learn and practice the numbers in Spanish.</em>
+<em>I made this webapp for my daughter to learn and practice the numbers in Spanish.</em>
 
 The application is designed to help users learn and practice the numbers 1 to 10 in Spanish. The application is built using JavaScript and jQuery, and features interactive animations and sounds to engage the user.
+<hr>
+
+![numeros](https://user-images.githubusercontent.com/94300302/230707256-d961a63b-f0ee-4e86-85fe-0b2cd9de307c.png)
+
+<hr>
 
 ## Usage
 
